@@ -19,7 +19,9 @@ npm run dev
 
 | Method | Route                | Auth   |
 | ------ | -------------------- | ------ |
-| GET    | `/health`            | -      |
-| POST   | `/api/auth/register` | -      |
-| POST   | `/api/auth/login`    | -      |
-| GET    | `/api/auth/me`       | Bearer |
+| GET    | `/health`                   | -      |
+| POST   | `/api/auth/signup`          | -      |
+| POST   | `/api/auth/login`           | -      |
+| POST   | `/api/auth/forgot-password` | -      |
+| POST   | `/api/auth/reset-password`  | -      |
+| GET    | `/api/auth/me`              | Bearer |
