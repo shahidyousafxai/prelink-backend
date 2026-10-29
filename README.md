@@ -25,3 +25,4 @@ npm run dev
 | POST   | `/api/auth/forgot-password` | -      |
 | POST   | `/api/auth/reset-password`  | -      |
 | GET    | `/api/auth/me`              | Bearer |
+| POST   | `/api/onboarding/complete`  | Bearer |

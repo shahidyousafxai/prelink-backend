@@ -8,6 +8,8 @@ const validate =
     const { value, error } = schema.validate(req[property], {
       abortEarly: false,
       stripUnknown: true,
+      // Messages reach the app as-is, so drop Joi's quotes around field names.
+      errors: { wrap: { label: false } },
     });
 
     if (error) {
